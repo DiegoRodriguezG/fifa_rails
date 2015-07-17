@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Diego Rodriguez"]
   spec.email         = ["drodriguez@gmail.com"]
 
-  spec.summary       = %q{Get info for real players and teams}
+  spec.summary       = "Get info for real players and teams"
   spec.homepage      = "https://github.com/DiegoRodriguezG/fifa_rails"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
