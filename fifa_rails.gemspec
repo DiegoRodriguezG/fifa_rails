@@ -7,11 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "fifa_rails"
   spec.version       = FifaRails::VERSION
   spec.authors       = ["Diego Rodriguez"]
-  spec.email         = ["diego@magickdevs.com"]
+  spec.email         = ["drodriguez@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Get info for real players and teams}
+  spec.homepage      = "https://github.com/DiegoRodriguezG/fifa_rails"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
