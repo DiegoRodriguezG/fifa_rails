@@ -1,6 +1,5 @@
 require "fifa_rails/version"
 require "rest-client"
-require "pry"
 
 module FifaRails
   class Fifa
